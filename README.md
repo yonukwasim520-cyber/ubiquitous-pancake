@@ -15,9 +15,9 @@ Requirements
 
 Installation
 
-1. Enter Ubuntu
+1. Entering Ubuntu
 
-If you have not installed Ubuntu in Termux yet, install it first and then log in to it.
+Write proot-distro login ubuntu However, if you are new, it will require installation Ubuntu And another  proot-distro It means downloading
 
 2. Update the system
 
