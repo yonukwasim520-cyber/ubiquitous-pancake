@@ -1,4 +1,4 @@
-![Minecraft Bot](bot.png)
+![Preview](Bot.png)
 Easy Minecraft Bot
 
 An easy-to-use Minecraft bot with a web control panel for managing and controlling your bots.
