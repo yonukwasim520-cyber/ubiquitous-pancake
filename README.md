@@ -1,71 +1,65 @@
-Easy Minecraft Bot - Installation Guide
+Easy Minecraft Bot
+
+An easy-to-use Minecraft bot with a web control panel for managing and controlling your bots.
 
 Requirements
 
 - Termux
+- Ubuntu inside Termux (Recommended)
 - Internet connection
+- Node.js and npm
+- Git
 
-Step 1: Install Ubuntu
+Installation
 
-Open Termux and run:
+1. Enter Ubuntu
 
-proot-distro login ubuntu
+If you have not installed Ubuntu in Termux yet, install it first and then log in to it.
 
-If Ubuntu is not installed, install it first. After the installation is complete, run the command again:
+2. Update the system
 
-proot-distro login ubuntu
+apt update && apt upgrade -y
 
----
+3. Install Git
 
-Step 2: Install Git
-
-apt update
 apt install git -y
 
----
-
-Step 3: Download Easy Minecraft Bot
+4. Download the project
 
 git clone https://github.com/yonukwasim520-cyber/Easy-Minecraft-bot.git
-
----
-
-Step 4: Open the Project Folder
-
 cd Easy-Minecraft-bot
 
----
+5. Install dependencies
 
-Step 5: Install Required Packages
+npm install
+
+If the command above does not work, install the packages manually:
 
 npm install mineflayer mineflayer-pathfinder express socket.io prismarine-viewer
 
-Wait until all packages finish installing.
-
----
-
-Step 6: Start Easy Minecraft Bot
+6. Start the bot
 
 node server.js
 
----
+7. Open the web panel
 
-Step 7: Open the Web Panel
-
-After starting the server, a website address will appear in the terminal.
-
-Open the website in your browser, connect your bot, configure the settings, and enjoy using Easy Minecraft Bot.
+After starting the server, a local web address will appear in the terminal. Open it in your browser to access the control panel and manage your bot.
 
 Features
 
-- Easy web-based control panel
+- Easy-to-use web interface
 - Minecraft bot management
 - Pathfinding support
-- Real-time web interface
 - Prismarine Viewer integration
 - Simple setup and configuration
+- Works on both mobile and PC
 
-Enjoy!
+Notes
 
-But, a piece of advice
-You have to rely apt It is forbidden to use pkg Do not use it in any way, or it will never work. Be careful; any small mistake will cause everything to break and you will have to start all over again. If you want to use the tool without needing it ub It's impossible to exploit performance unless you're inside ub Or else you'll have to start all over again. But the performance works even on a computer, but it needs to be in the system ub This means that people using Windows cannot utilize the performance except by using applications that emulate the system ub Or, even easier, you can download the app Termux But you need to use the computer version. If you're on a phone, use the mobile app; if you're on a computer, use the computer app. Everyone needs to read about this; it's important advice. Pay attention
+- Ubuntu inside Termux is recommended for the best compatibility and performance.
+- The project may work on other systems if all requirements are installed correctly.
+- If you encounter any issues, please open an Issue on GitHub.
+
+License
+
+MIT License
